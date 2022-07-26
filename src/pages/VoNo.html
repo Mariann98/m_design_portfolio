@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VoNo memo</title>
+    <link href="/src/styles/work_style.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="../../public/pictures/logo.png" />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="navbar_left">
+        <ul class="navbar-list">
+          <li><a href="/index.html#home">HOME</a></li>
+          <li><a href="/index.html#portfolio">PORTFOLIO</a></li>
+        </ul>
+      </div>
+      <div class="navbar_mid">
+        <a href="/index.html#home">
+          <img class="logo1" src="/public/pictures/MA.png" alt="logo"
+        /></a>
+      </div>
+      <div class="navbar_right">
+        <ul class="navbar-list">
+          <li><a href="/index.html#about">ABOUT</a></li>
+          <li><a href="/index.html#contact">CONTACT</a></li>
+        </ul>
+      </div>
+    </div>
+    <main>
+      <div class="work">
+        <h1 id="vono">vono memo app</h1>
+        <div class="wrapper">
+          <div class="work_wrapper">
+            <p id="introduction">
+              I had the opportunity to improve the main features part of the VoNo memo app, where a user can
+              collect and send memos in the fastest way. Throughout this project, I did research,
+              figured out the improvements needed in the app, and redesigned the homepage.
+            </p>
+          </div>
+        </div>
+        <div class="work_wrapper">
+          <div class="work_wrapper_left">
+            <h4>The objective</h4>
+            <p>
+              The client wanted to improve the UX and UI of the app. I needed to provide the client
+              with an updated version of the home screen (which includes the four ‘memo’
+              functionalities). The home screen was supposed to be intuitive and reflect the needs
+              of the user. The client is ready to remove or add new features to the home screen if
+              it improves the User Experience. The user statistics attached below will show the most
+              used features.
+            </p>
+          </div>
+          <div class="work_wrapper_right">
+            <img src="../../public/pictures/stats.PNG" class="pictures" alt="mockup" />
+          </div>
+        </div>
+        <div class="work_wrapper">
+          <div class="work_wrapper_left">
+            <h4>Getting to know the app</h4>
+            <p>
+              I started my process by discovering the functions of the VoNo app. I wanted to go
+              through it without prior knowledge to find out if everything is understandable to the
+              user who is new to the app like me. After writing down some notes on what is clear and
+              what needs some improvements, I visited the VoNo website. This gave me a clear
+              overview of what the application is about. Then I wanted to get to know the customer
+              group, so I went through Google Play reviews to find some intel on the product. Before
+              I started to prototype, I wanted to make sure I am not biased regarding the
+              improvements I would like to make, so I asked my fellow peers to use the app and tell
+              me about their experiences. After the testing, I made my final list of improvements to
+              the app.
+              <br />
+            </p>
+          </div>
+        </div>
+        <div class="work_wrapper">
+          <div class="work_wrapper_left">
+            <h4>List of improvements</h4>
+            <p>
+              After my research I concluded that the following aspects could be improved: <br />From
+              the UI part, I felt that everything looked nice and seemed functional, but I wanted to
+              make the icons more consistent and solid in order to improve the app's look. Other
+              than that, the client is the king and I work according to their taste preference.<br />
+              From the UX perspective I have some improvements:
+            </p>
+            <ol>
+              <li>
+                The recording starts immediately when opening the app. This can be good or bad. On
+                one hand, when for example, driving a car, it is nice to have that functionality,
+                but when the user is already finding the time to open it, I think they have time to
+                tap the record button too. (Sidenote: the driver should not use the phone anyways
+                when driving). During my research, I found out that this functionality is not
+                convenient and is disturbing since the user would have to tap on the Discard button
+                (+ discard memo) to make it stop.
+              </li>
+              <li>
+                According to the information I received about VoNo, the users use mostly the
+                voice-to-text function, so it should be first on the list. As the percentage shows,
+                “reminder” and “share” are not as popular, so these should either be removed (and
+                used only on the “memo overview” page) or hidden. The user shouldn’t be distracted
+                by those features since the main point of this application is to send a memo fast to
+                yourself or someone else.
+              </li>
+              <li>
+                I am interested to know what the blue line on top of the screen is for, and for what
+                stands the 50/10 number. I understand that the first number decreases because the
+                user has 50 memos without the Pro version, but what does the 10 stand for? And I
+                guess the blue bar should also increase/decrease depending on the number of memos
+                left. (This started working after I had only 10 memos left).
+              </li>
+              <li>
+                When first registering the account, maybe it would be nice to get a pop-up
+                indicating that the user has 50 free memos and lead them to the page where they get
+                more information about it. 5. I like that there is an option to change the order of
+                the “send” and “save” buttons, but they could have a different look, so the user
+                could recognize the correct button immediately without thinking and reading.
+              </li>
+              <li>
+                On the “voice” page, the share button does not function when nothing is recorded.
+                This could be removed and have it only on the page where the recording has stopped,
+                would be enough.
+              </li>
+              <li>
+                It would be more coinvent to have the “memo overview” (or the “folder”) icon on the
+                right side of the screen. Firstly, for right-handed people (90% of the world's
+                population) it is easier to reach it, but also the 50/10 would be more
+                understandable and indicated clearly in the memos.
+              </li>
+              <li>
+                When first opening the app, there is a “Get started” button and usually the user can
+                enter their information. Here, however, this step is skipped, and the user is
+                immediately in the app. Does this mean, that after I enter my email as a recipient I
+                am automatically registered/logged in and in the future can sign in with my Google,
+                etc. account? In that case, the “email and password” login does not have a function.
+              </li>
+              <li>
+                On the login page, I cannot go back to the “Get started” page if I accidentally have
+                tapped on the "login" button as a first-time user. I would have to uninstall and
+                then install the app again.
+              </li>
+              <li>
+                It would be nice to ask the user if they want their first recipient’s email address
+                to be the one, they registered with. Usually, the account you register is the
+                primary one anyways, and this would make the process faster for the user, instead of
+                double asking for their email.
+              </li>
+            </ol>
+        </div>
+        <div class="work_wrapper">
+          <div class="work_wrapper_left">
+            <h4>Prototyping</h4>
+            <p>
+              After figuring out the app’s functions and the core needs for the home page I started
+              prototyping. I made a style guide and decided on new icons. I wanted them to be solid
+              and consistent throughout the app, so I made a few myself and downloaded the others.
+              Then I opened my list of improvements and started working my way down. I am very
+              detail-oriented, so everything had to be perfectly centered and sized. I was having
+              some trouble deciding whether to leave the “reminder” and “share” functions on the
+              home screen or not, since the percetnece of using them is fairly low (4.6 and 0.6).
+              But for the sake of older customers, I wanted to leave those options, so the users who
+              operate those features, wouldn’t feel sad/mad for their disappearance. I first made
+              the new navbar, which looks similar to the older version but with a few improvements,
+              like new icons, and different orders. Then I continued with the enabled and disabled
+              “send” and “save” buttons and tried to figure out the best way for the user to operate
+              with them. Then I continued with the middle part. I used this method for every page.
+              After this, I made pop-up pages like “add extra recipient”, “error”, etc. I previously
+              pointed out the changes that could be made, but here is the final list of what I
+              actually improved. <br /><br />The changes I made:
+            </p>
+            <ol>
+              <li>New icons – consistency throughout the app.</li>
+              <li>
+                The “folder/memo overview” and “settings” switched places. More convenient for
+                right-handed users, “settings” are not used as often.
+              </li>
+              <li>
+                Numbers above (10/50) show that the user has used 10 out of 50 memos, and the bar
+                will increase according to that.
+              </li>
+              <li>
+                Recording doesn’t start automatically anymore, instead the user needs to start it
+                themselves.
+              </li>
+              <li>
+                New look to “save” and “send” buttons, so the user can tap on them without further
+                thinking.
+              </li>
+              <li>
+                The “discard/cancel” button has been moved down, so the user could easily discard
+                the recording, or delete the whole text when typing.
+              </li>
+              <li>
+                I also wanted to delete the calendar and/or share button at least from the main
+                page, so they can do it in the memo overview anyways.
+              </li>
+              <li>
+                I decided to leave the “reminder” and “share” options on the home page, but I placed
+                them under “options”.
+              </li>
+              <li>
+                The “photo” page has now an option to view the photo taken before sending or saving
+                it. It is always good to have the option to check what you are sending, to be sure
+                it’s not blurry, for example.
+              </li>
+            </ol>
+          </div>
+
+          <div class="work_wrapper_right">
+            <img src="../../public/pictures/vono.png" class="Vpictures" alt="mockup" />
+          </div>
+        </div>
+        <div class="work_wrapper">
+          <div class="work_wrapper_left">
+            <p class="link">Check out the website</p>
+            <a
+              class="xd_link"
+              href="https://www.figma.com/file/L0JNcREMwPibEOMjj1jJ5r/VoNo_Mariann-Alber?node-id=0%3A1"
+              >VoNo memo Figma link</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="project_selection_wrapper">
+        <div class="project_selection_link">
+          <a href="interactiondesign.html">
+            <h3 class="project_selection">Previous</h3>
+          </a>
+        </div>
+        <div class="project_selection_link">
+          <a href="itsdoggotime.html">
+            <h3 class="project_selection">Next</h3>
+          </a>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
