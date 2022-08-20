@@ -1,870 +1,150 @@
-@import url("https://use.typekit.net/yrm2sft.css");
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mariann's portfolio</title>
+    <link rel="shortcut icon" href="public/pictures/logo2.png" />
+    <link href="src/styles/index_styles.css" rel="stylesheet" />
+  </head>
 
-:root {
-  --beige1: #b79e8e;
-  --light1: #f2f2f2;
-  --dark1: #111111;
-}
+  <body>
+    <div class="navbar">
+      <div class="navbar_left">
+        <ul class="navbar-list">
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#portfolio">PORTFOLIO</a></li>
+        </ul>
+      </div>
+      <div class="navbar_mid">
+        <img class="logo1" src="public/pictures/MA.png" alt="logo" />
+      </div>
+      <div class="navbar_right">
+        <ul class="navbar-list">
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="intro" id="home">
+      <img class="logo" src="public/pictures/logo2.png" alt="logo" />
 
-* {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-  scroll-behavior: smooth;
-}
-body {
-  font-family: nitti-typewriter-normal, sans-serif;
-  color: var(--dark1);
-  background-color: var(--light1);
-  margin-left: 2em;
-  margin-right: 2em;
-}
+      <p>
+        Hey! I'm Mariann, a <span class="color">UX/UI Designer</span>. I enjoy combing my research
+        and design skills to understand the user needs and create an inviting experience for them.
+      </p>
+    </div>
+    <main>
+      <div class="portfolio" id="portfolio">
+        <h1>Portfolio</h1>
 
-.navbar_right {
-  display: none;
-}
-.navbar_left {
-  display: none;
-}
-.intro {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.logo {
-  height: auto;
-  width: 50%;
-  margin: 5em 0 2em 0;
-}
-.logo1 {
-  margin-top: 1em;
-  height: auto;
-  width: 20%;
-}
-.navbar_mid {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.intro p {
-  font-family: nitti-typewriter-normal, sans-serif;
-  font-weight: 500;
-  font-style: normal;
-  font-size: 1.25em;
-  text-align: center;
-  max-width: 15em;
-  margin-bottom: 2em;
-}
+        <div class="portfolio_wrapper">
+          <div class="portfolio_wrapper_left">
+            <img class="portfolio_image" src="public/pictures/BD1.png" alt="giftfromafar" />
 
-.color {
-  color: var(--beige1);
-  font-family: nitti-typewriter-normal, sans-serif;
-  font-weight: 500;
-  font-style: normal;
-  font-size: 1.25em;
-}
-h1 {
-  color: var(--beige1);
-  font-family: nitti-typewriter-normal, sans-serif;
-  font-weight: 500;
-  font-style: normal;
-  text-align: center;
-  font-size: 2em;
-  margin-bottom: 0.5em;
-  margin-top: 1em;
-}
-.about_me_wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
+            <div class="view">
+              <a href="/src/pages/giftfromafar.html"><h5>Gift from afar</h5></a>
+              <p>Bespoke Design</p>
+            </div>
+          </div>
 
-.profile_picture {
-  height: auto;
-  width: 80%;
-  margin: 2em;
-}
-.about p {
-  max-width: 20em;
-  margin-bottom: 3em;
-  font-size: 1em;
-}
-.view h5 {
-  color: var(--beige1);
-  font-size: 0.8em;
-  top: 30%;
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-}
-.view p {
-  font-size: 0.6em;
-  font-family: nitti-typewriter-normal, sans-serif;
-  padding: 0.5em 1em;
-  position: absolute;
-  top: 48%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-}
-.portfolio {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.portfolio_image {
-  width: 100%;
-  height: auto;
-}
-.view_button {
-  display: none;
-}
-.view {
-  display: none;
-}
-.view_link a {
-  text-decoration: none;
-  list-style-type: none;
-  color: var(--beige1);
-}
-footer {
-  width: 100% auto;
-}
-.contact p {
-  text-align: center;
-  font-size: 1em;
-  margin: 1em;
-  padding-bottom: 1em;
-}
+          <div class="portfolio_wrapper_right">
+            <img class="portfolio_image" src="public/pictures/DfE1.png" alt="designforemotion" />
 
-@media (min-width: 360px) {
-  .intro {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+            <div class="view">
+              <a href="/src/pages/designforemotion.html"><h5>Design for Emotion</h5></a>
+              <p>Alarm.io</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio_wrapper">
+        <div class="portfolio_wrapper_left">
+          <img class="portfolio_image" src="public/pictures/RS1.png" alt="rijksstudio" />
 
-  .logo {
-    height: auto;
-    width: 50%;
-    margin: 5em 0 2em 0;
-  }
-  .intro p {
-    font-family: nitti-typewriter-normal, sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 1.5em;
-    text-align: center;
-    max-width: 17em;
-    margin-bottom: 2em;
-  }
-  .logo1 {
-    margin-top: 1em;
-    height: auto;
-    width: 15%;
-  }
-  .color {
-    color: var(--beige1);
-  }
-  h1 {
-    font-family: nitti-typewriter-normal, sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 2.75em;
-    margin-bottom: 0.5em;
-    margin-top: 3em;
-  }
-  .about_me_wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
+          <div class="view">
+            <a href="/src/pages/rijksstudio1.html"><h5>Rijksstudio</h5></a>
+            <p>Research for Design</p>
+          </div>
+        </div>
 
-  .about_me_wrapper img {
-    width: 60%;
-    height: auto;
-  }
-  .wrapper_right {
-    display: flex;
-    justify-content: center;
-  }
-  .about p {
-    max-width: 20em;
-    margin-bottom: 3em;
-    font-size: 0.8em;
-  }
+        <div class="portfolio_wrapper_right">
+          <img class="portfolio_image" src="public/pictures/ID12.png" alt="empty" />
+          <div class="view">
+            <a href="/src/pages/interactiondesign.html"><h5>Cinema wireframes</h5></a>
+            <p>Interaction Design</p>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio_wrapper">
+        <div class="portfolio_wrapper_left">
+          <img class="portfolio_image" src="public/pictures/VN1.png" alt="VoNo" />
 
-  .portfolio {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .portfolio_image {
-    width: 100%;
-    height: auto;
-  }
-  .portfolio_wrapper_left {
-    position: relative;
-  }
-  .portfolio_wrapper_left:hover img {
-    opacity: 0.2;
-  }
+          <div class="view">
+            <a href="/src/pages/VoNo.html"><h5>VoNo memo note</h5></a>
+            <p>Improvement of an existing app</p>
+          </div>
+        </div>
 
-  .portfolio_wrapper_left:hover .view {
-    opacity: 1;
-  }
+        <div class="portfolio_wrapper_right">
+          <img class="portfolio_image" src="public/pictures/IDT1.png" alt="itsdoggotime" />
+          <div class="view">
+            <a href="/src/pages/itsdoggotime.html"><h5>It's doggo time</h5></a>
+            <p>Personal project</p>
+          </div>
+        </div>
+      </div>
 
-  .portfolio_wrapper_right {
-    position: relative;
-  }
-  .portfolio_wrapper_right:hover img {
-    opacity: 0.2;
-  }
+      <div class="portfolio_wrapper">
+        <div class="portfolio_wrapper_left">
+          <img class="portfolio_image" src="public/pictures/SF1.png" alt="sportflex" />
 
-  .portfolio_wrapper_right:hover .view {
-    opacity: 1;
-  }
-  .view {
-    transition: 0.3s ease-in;
-    opacity: 0;
-    display: block;
-    text-align: center;
-    font-family: nitti-typewriter-normal, sans-serif;
-  }
+          <div class="view">
+            <a href="/src/pages/sportflex.html"><h5>SportFlex</h5></a>
+            <p>Personal project</p>
+          </div>
+        </div>
 
-  footer {
-    width: 100% auto;
-  }
-  .contact p {
-    text-align: center;
-    font-size: 0.8em;
-    margin: 1em;
-    padding-bottom: 1em;
-  }
-}
-@media (min-width: 640px) {
-  .navbar {
-    display: flex;
-    position: sticky;
-    justify-content: space-between;
-    align-items: baseline;
-    top: 0px;
-    z-index: 5;
-    background-color: var(--light1);
-  }
+        <div class="portfolio_wrapper_right">
+          <img class="portfolio_image" src="public/pictures/CfC1.png" alt="claimthecity" />
 
-  .navbar_right {
-    display: block;
-  }
-  .navbar_left {
-    display: block;
-  }
-  .logo1 {
-    margin-top: 1em;
-    height: auto;
-    width: 20%;
-  }
-  .navbar_mid {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  li a {
-    color: var(--beige1);
-    text-align: center;
-    text-decoration: none;
-    list-style-type: none;
-    font-size: 0.9em;
-    margin: 1.1em;
-  }
-  ul {
-    margin-top: 1em;
-    margin-bottom: 1em;
-    display: flex;
-    justify-content: flex-end;
-    list-style: none;
-  }
-  .navbar_right a:hover {
-    color: #8c674f;
-    transition: 0.5s;
-  }
-  .navbar_left a:hover {
-    color: #8c674f;
-    transition: 0.5s;
-  }
-  .intro {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-  }
-
-  .logo {
-    height: auto;
-    width: 30%;
-    margin-right: 1em;
-  }
-  .intro p {
-    font-family: nitti-typewriter-normal, sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 1.6em;
-    text-align: left;
-    max-width: 14em;
-    margin-bottom: 0;
-  }
-
-  h1 {
-    font-family: nitti-typewriter-normal, sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    text-align: center;
-    font-size: 3em;
-    margin-bottom: 0.5em;
-    margin-top: 1em;
-  }
-  .about_me_wrapper {
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .about_me_wrapper img {
-    height: auto;
-    width: 90%;
-  }
-  .about p {
-    max-width: 40em;
-    font-size: 1em;
-  }
-
-  .portfolio_wrapper {
-    display: flex;
-
-    justify-content: center;
-    align-items: center;
-  }
-  .portfolio_wrapper_left {
-    position: relative;
-  }
-
-  .portfolio_wrapper_left:hover img {
-    opacity: 0.2;
-  }
-
-  .portfolio_wrapper_left:hover .view {
-    opacity: 1;
-  }
-
-  .portfolio_wrapper_right {
-    position: relative;
-  }
-  .portfolio_wrapper_right:hover img {
-    opacity: 0.2;
-  }
-
-  .portfolio_wrapper_right:hover .view {
-    opacity: 1;
-  }
-  .view {
-    transition: 0.6s ease-in;
-    opacity: 0;
-    display: block;
-    text-align: center;
-    font-family: nitti-typewriter-normal, sans-serif;
-  }
-
-  .view h5 p {
-    color: var(--beige1);
-    font-size: 1.2em;
-    top: 30%;
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-  }
-  .view p {
-    font-size: 0.9em;
-    font-family: nitti-typewriter-normal, sans-serif;
-    padding: 0.5em 1em;
-    position: absolute;
-    top: 48%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-  }
-  footer {
-    width: 100% auto;
-  }
-  .contact p {
-    text-align: center;
-    font-size: 1em;
-    margin: 1em;
-    padding-bottom: 1em;
-  }
-}
-@media (min-width: 768px) {
-  body {
-    margin-left: 3em;
-    margin-right: 3em;
-  }
-  .navbar {
-    display: flex;
-    position: sticky;
-    justify-content: space-between;
-    align-items: baseline;
-    top: 0px;
-    z-index: 5;
-    background-color: var(--light1);
-  }
-
-  li a {
-    text-align: center;
-    text-decoration: none;
-    list-style-type: none;
-    font-size: 1.1em;
-    margin: 3em;
-  }
-  ul {
-    margin-top: 1em;
-    margin-bottom: 1em;
-    display: flex;
-    justify-content: flex-end;
-    list-style: none;
-  }
-  .navbar_right a:hover {
-    color: #8c674f;
-    transition: 0.5s;
-  }
-  .navbar_left a:hover {
-    color: #8c674f;
-    transition: 0.5s;
-  }
-  .intro {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-  }
-  .logo1 {
-    margin-top: 1em;
-    height: auto;
-  }
-  .logo {
-    height: auto;
-    width: 35%;
-  }
-  .intro p {
-    font-family: nitti-typewriter-normal, sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 1.6em;
-    text-align: left;
-    max-width: 16em;
-    margin-left: 2em;
-  }
-
-  h1 {
-    font-family: nitti-typewriter-normal, sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    text-align: center;
-    font-size: 3em;
-    margin-bottom: 1em;
-    margin-top: 1em;
-  }
-  .about_me_wrapper {
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .about_me_wrapper img {
-    height: auto;
-    width: 90%;
-  }
-  .about p {
-    max-width: 30em;
-    font-size: 1.2em;
-  }
-
-  .portfolio_wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .portfolio_wrapper_left {
-    position: relative;
-  }
-
-  .portfolio_wrapper_left:hover img {
-    opacity: 0.2;
-  }
-
-  .portfolio_wrapper_left:hover .view {
-    opacity: 1;
-  }
-
-  .portfolio_wrapper_right {
-    position: relative;
-  }
-  .portfolio_wrapper_right:hover img {
-    opacity: 0.2;
-  }
-
-  .portfolio_wrapper_right:hover .view {
-    opacity: 1;
-  }
-  .view {
-    transition: 0.3s ease-in;
-    opacity: 0;
-    display: block;
-    text-align: center;
-    font-family: nitti-typewriter-normal, sans-serif;
-  }
-
-  .view h5 p {
-    color: var(--beige1);
-    font-size: 1.3em;
-    top: 30%;
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-  }
-  .view p {
-    font-size: 1em;
-    font-family: nitti-typewriter-normal, sans-serif;
-    padding: 0.5em 1em;
-    position: absolute;
-    top: 48%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-  }
-  footer {
-    width: 100% auto;
-  }
-  .contact p {
-    text-align: center;
-    font-size: 1.2em;
-    margin: 1em;
-    padding-bottom: 1em;
-  }
-}
-@media (min-width: 1024px) {
-  .navbar {
-    display: flex;
-    position: sticky;
-    justify-content: space-between;
-    align-items: baseline;
-    top: 0px;
-    z-index: 5;
-    background-color: var(--light1);
-  }
-  /*.navbar_left {
-    font-family: mina, serif;
-    text-align: left;
-    margin-top: 1em;
-    font-size: 0.75em;
-    color: var(--purple1);
-  }
-  */
-  .navbar_right {
-    display: block;
-  }
-  li a {
-    text-align: center;
-    text-decoration: none;
-    list-style-type: none;
-    font-size: 1.2em;
-    margin: 3em;
-  }
-  ul {
-    margin-top: 1em;
-    margin-bottom: 1em;
-    display: flex;
-    justify-content: flex-end;
-    list-style: none;
-  }
-  .navbar_right a:hover {
-    color: #8c674f;
-    transition: 0.5s;
-  }
-  .navbar_left a:hover {
-    color: #8c674f;
-    transition: 0.5s;
-  }
-  .intro {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .logo {
-    height: auto;
-    width: 30%;
-  }
-  .intro p {
-    font-family: nitti-typewriter-normal, sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 2em;
-    text-align: left;
-    max-width: 16.5em;
-  }
-
-  h1 {
-    font-family: nitti-typewriter-normal, sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    text-align: center;
-    font-size: 3.9em;
-    margin-top: 2em;
-  }
-  .about_me_wrapper {
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    justify-content: center;
-  }
-  .about_me_wrapper img {
-    height: auto;
-    width: 100%;
-    margin: 1em;
-  }
-  .about p {
-    max-width: 40em;
-    font-size: 1.4em;
-    margin: 1em;
-  }
-
-  .portfolio_wrapper {
-    display: flex;
-
-    justify-content: center;
-    align-items: center;
-  }
-
-  .portfolio_wrapper_left {
-    position: relative;
-  }
-
-  .portfolio_wrapper_left:hover img {
-    opacity: 0.2;
-  }
-
-  .portfolio_wrapper_left:hover .view {
-    opacity: 1;
-  }
-
-  .portfolio_wrapper_right {
-    position: relative;
-  }
-  .portfolio_wrapper_right:hover img {
-    opacity: 0.2;
-  }
-
-  .portfolio_wrapper_right:hover .view {
-    opacity: 1;
-  }
-  .view {
-    transition: 0.3s ease-in;
-    opacity: 0;
-    display: block;
-    text-align: center;
-    font-family: nitti-typewriter-normal, sans-serif;
-  }
-
-  .view h5 {
-    color: var(--beige1);
-    font-size: 1.8em;
-    top: 30%;
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-  }
-  .view p {
-    font-size: 0.9em;
-    font-family: nitti-typewriter-normal, sans-serif;
-    padding: 0.5em 1em;
-    position: absolute;
-    top: 48%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-  }
-  footer {
-    width: 100% auto;
-  }
-  .contact p {
-    text-align: center;
-    font-size: 1.4em;
-    margin: 1em;
-    padding-bottom: 1em;
-  }
-}
-@media (min-width: 1536px) {
-  body {
-    margin-left: 8em;
-    margin-right: 8em;
-  }
-  .navbar {
-    display: flex;
-    position: sticky;
-    justify-content: space-between;
-    align-items: baseline;
-    top: 0px;
-    z-index: 5;
-  }
-
-  li a {
-    font-family: nitti-typewriter-normal, sans-serif;
-    text-align: center;
-    text-decoration: none;
-    list-style-type: none;
-    font-size: 1.5em;
-    margin: 3em;
-  }
-  ul {
-    margin-top: 1em;
-    margin-bottom: 1em;
-    display: flex;
-    justify-content: flex-end;
-    list-style: none;
-  }
-  .navbar_right a:hover {
-    color: #8c674f;
-    transition: 0.5s;
-  }
-  .navbar_left a:hover {
-    color: #8c674f;
-    transition: 0.5s;
-  }
-  .intro {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .logo {
-    height: auto;
-    width: 30%;
-  }
-  .intro p {
-    color: var(--dark1);
-    font-family: nitti-typewriter-normal, sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 2em;
-    text-align: left;
-    max-width: 26em;
-  }
-
-  h1 {
-    font-family: nitti-typewriter-normal, sans-serif;
-    color: var(--beige1);
-    font-weight: 500;
-    font-style: normal;
-    text-align: center;
-    font-size: 5em;
-    margin-bottom: 1em;
-    margin-top: 1em;
-  }
-  .about_me_wrapper {
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .about_me_wrapper img {
-    height: auto;
-    width: 90%;
-  }
-  .about p {
-    max-width: 35em;
-    font-size: 1.6em;
-  }
-
-  .portfolio_wrapper {
-    display: flex;
-
-    justify-content: center;
-    align-items: center;
-  }
-  .portfolio_wrapper_left {
-    position: relative;
-  }
-
-  .portfolio_wrapper_left:hover img {
-    opacity: 0.2;
-  }
-
-  .portfolio_wrapper_left:hover .view {
-    opacity: 1;
-  }
-
-  .portfolio_wrapper_right {
-    position: relative;
-  }
-  .portfolio_wrapper_right:hover img {
-    opacity: 0.2;
-  }
-
-  .portfolio_wrapper_right:hover .view {
-    opacity: 1;
-  }
-  .view {
-    transition: 0.3s ease-in;
-    opacity: 0;
-    display: block;
-    text-align: center;
-    font-family: nitti-typewriter-normal, sans-serif;
-  }
-
-  .view h5 {
-    color: #997e6e;
-    font-size: 2em;
-    top: 30%;
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-  }
-  .view p {
-    color: var(--dark1);
-    font-size: 1em;
-    font-family: nitti-typewriter-normal, sans-serif;
-    padding: 0.5em 1em;
-    position: absolute;
-    top: 48%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-  }
-  footer {
-    width: 100% auto;
-  }
-  .contact p {
-    text-align: center;
-    font-size: 1.6em;
-    margin: 1em;
-    padding-bottom: 1em;
-  }
-}
+          <div class="view">
+            <a href="/src/pages/claimthecity.html"><h5>Claim the city</h5></a>
+            <p>Design & Creativity</p>
+          </div>
+        </div>
+      </div>
+      <div class="about" id="about">
+        <h1>About</h1>
+        <div class="about_me_wrapper">
+          <div class="wrapper_right">
+            <img src="public/pictures/meS.png" class="profile_picture" alt="me" />
+          </div>
+          <div class="wrapper_left">
+            <p class="about_me_text">
+              Hey, my name is Mariann and I am currently majoring in UX design at THUAS. One of the
+              things I love most about UX design is prototyping, I can get lost in time when I begin
+              with it. That would be something, I could do for the rest of my life.<br /><br />
+              I have always known that I want to work in the IT field but I never knew in what role,
+              till I found out about UX/UI design which sparked my interest immediately. Since the
+              beginning of 2020, I started to develop my skills by creating different apps that
+              would benefit my family and myself.<br /><br />
+              During my studies at the university, I have evolved my skills in research and
+              programming which has given me a new perspective on UX design.
+            </p>
+          </div>
+        </div>
+      </div>
+      <footer class="contact" id="contact">
+        <h1>Contact</h1>
+        <p>
+          Feel free to reach out to have a chat.
+          <br />
+          <br />
+          mariannalber.design@gmail.com <br />
+          The Hague, Netherlands
+        </p>
+      </footer>
+    </main>
+  </body>
+</html>
