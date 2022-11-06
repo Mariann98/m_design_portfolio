@@ -484,7 +484,7 @@ footer {
   }
   .intro {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
   }
@@ -495,6 +495,7 @@ footer {
   .logo {
     height: auto;
     width: 40%;
+    margin-right: 4em;
 
   }
   .intro p {
