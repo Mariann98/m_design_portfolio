@@ -1,4 +1,4 @@
-@import url("https://use.typekit.net/yrm2sft.css");
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
 
 :root {
   --beige1: #b79e8e;
@@ -10,9 +10,13 @@
   margin: 0px;
   padding: 0px;
 }
+body {
+  font-family: 'Outfit', sans-serif;
+}
+
 @media (min-width: 360px) {
 body {
-  font-family: nitti-typewriter-normal, sans-serif;
+
   color: var(--dark1);
   background-color: var(--light1);
   margin-left: 2em;
@@ -37,7 +41,6 @@ body {
 }
 
 h1 {
-  font-family: nitti-typewriter-normal, sans-serif;
   font-weight: 500;
   font-style: normal;
   text-align: center;
@@ -194,7 +197,6 @@ footer p {
   }
   
   h1 {
-    font-family: nitti-typewriter-normal, sans-serif;
     font-weight: 500;
     font-style: normal;
     text-align: center;
@@ -381,7 +383,6 @@ footer p {
     width: 20%;
   }
   h1 {
-    font-family: nitti-typewriter-normal, sans-serif;
     font-weight: 500;
     font-style: normal;
     text-align: center;
@@ -526,7 +527,6 @@ footer p {
   }
 
   h1 {
-    font-family: nitti-typewriter-normal, sans-serif;
     font-weight: 500;
     font-style: normal;
     text-align: center;
@@ -681,7 +681,6 @@ footer p {
     list-style: none;
   }
   h1 {
-    font-family: nitti-typewriter-normal, sans-serif;
     font-weight: 500;
     font-style: normal;
     text-align: center;
@@ -822,7 +821,6 @@ footer p {
   }
 
   h1 {
-    font-family: nitti-typewriter-normal, sans-serif;
     font-weight: 500;
     font-style: normal;
     text-align: center;
