@@ -23,9 +23,7 @@ font-family: 'Outfit', sans-serif;
   display: none;
 }
 .navbar_mid {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: none;
 }
 .navbar_left {
   display: none;
