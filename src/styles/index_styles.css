@@ -19,6 +19,12 @@ font-family: 'Outfit', sans-serif;
   margin-left: 2em;
   margin-right:2em;
 }
+.navbar_right {
+  display: none;
+}
+.navbar_left {
+  display: none;
+}
   .intro {
     display: flex;
     flex-direction: column;
