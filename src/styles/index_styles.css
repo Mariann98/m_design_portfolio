@@ -16,8 +16,8 @@ body {
   font-family: nitti-typewriter-normal, sans-serif;
   color: var(--dark1);
   background-color: var(--light1);
-  margin-left: 1em;
-  margin-right:1em;
+  margin-left: 2em;
+  margin-right:2em;
 }
 
 .navbar_right {
@@ -173,7 +173,7 @@ footer {
     font-family: nitti-typewriter-normal, sans-serif;
     font-weight: 500;
     font-style: normal;
-    font-size: 2.75em;
+    font-size: 2em;
     margin-bottom: 0.5em;
     margin-top: 3em;
   }
@@ -195,7 +195,7 @@ footer {
   .about p {
     max-width: 20em;
     margin-bottom: 3em;
-    font-size: 1.2em;
+    font-size: 1em;
   }
 
   .portfolio {
@@ -238,7 +238,7 @@ footer {
 
   .view h5 {
     color: var(--beige1);
-    font-size: 1.2em;
+    font-size: 1em;
     top: 30%;
     position: absolute;
     top: 40%;
@@ -247,7 +247,7 @@ footer {
     -ms-transform: translate(-50%, -50%);
   }
   .view p {
-    font-size: 1em;
+    font-size: 0.8em;
     font-family: nitti-typewriter-normal, sans-serif;
     padding: 0.5em 1em;
     position: absolute;
@@ -262,7 +262,7 @@ footer {
   }
   .contact p {
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1em;
     margin: 1em;
     padding-bottom: 1em;
   }
