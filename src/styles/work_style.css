@@ -131,6 +131,11 @@ img {
   width: 80%;
   margin: 1em 0 1em 0;
 }
+  .pictures1 {
+  height: auto;
+  width: 50%;
+  margin: 1em 0 1em 0;
+}
 .project_selection_wrapper {
   display: flex;
   justify-content: space-between;
