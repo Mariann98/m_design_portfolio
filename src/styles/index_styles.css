@@ -197,7 +197,7 @@ font-family: 'Outfit', sans-serif;
     margin-left: 10em;
     margin-right: 10em;
   }
-  .navbar {
+ .navbar {
     display: flex;
     position: sticky;
     justify-content: space-between;
@@ -212,11 +212,6 @@ font-family: 'Outfit', sans-serif;
   }
   .navbar_left {
     display: block;
-  }
-  .logo1 {
-    margin-top: 1em;
-    height: auto;
-    width: 20%;
   }
   .navbar_mid {
     display: flex;
@@ -237,6 +232,12 @@ font-family: 'Outfit', sans-serif;
     display: flex;
     justify-content: flex-end;
     list-style: none;
+  }
+
+  .logo1 {
+    margin-top: 1em;
+    height: auto;
+    width: 20%;
   }
   .navbar_right a:hover {
     color: #8c674f;
