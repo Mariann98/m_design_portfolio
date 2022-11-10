@@ -163,6 +163,10 @@ img {
   margin-top: 1em;
   font-weight: 900;
 }
+  .iframe {
+    height:100%;
+    width:auto;
+  }
 footer {
   width: 100% auto;
   display: flex;
