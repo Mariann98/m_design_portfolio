@@ -151,9 +151,9 @@ footer {
   }
 
   .logo {
-    height: auto;
-    width: 50%;
-    margin: 5em 0 2em 0;
+  height: auto;
+  width: 50%;
+  margin: 5em 0 2em 0;
   }
   .intro p {
   
@@ -344,8 +344,8 @@ footer {
     text-align: center;
     text-decoration: none;
     list-style-type: none;
-    font-size: 1.2em;
-    margin: 1em;
+    font-size: 1.1em;
+    margin: 3em;
   }
   ul {
     margin-top: 1em;
@@ -376,7 +376,6 @@ footer {
     margin-right: 1em;
   }
   .intro p {
-
     font-weight: 500;
     font-style: normal;
     font-size: 1.6em;
@@ -444,33 +443,6 @@ footer {
   body {
     margin-left: 15em;
     margin-right: 15em;
-  }
-  .navbar {
-    display: flex;
-    position: sticky;
-    justify-content: space-between;
-    align-items: baseline;
-    top: 0px;
-    z-index: 5;
-    background-color: var(--light1);
-  }
-
-  .navbar_right {
-    display: block;
-  }
-  li a {
-    text-align: center;
-    text-decoration: none;
-    list-style-type: none;
-    font-size: 1.3em;
-    margin: 1em;
-  }
-  ul {
-    margin-top: 1em;
-    margin-bottom: 1em;
-    display: flex;
-    justify-content: flex-end;
-    list-style: none;
   }
   .navbar_right a:hover {
     color: #8c674f;
@@ -596,11 +568,12 @@ footer {
     padding-bottom: 1em;
   }
 }
-@media (min-width: 1536px) {
+@media (min-width: 1280px) {
   body {
-    margin-left: 25em;
-    margin-right: 25em;
+    margin-left: 15em;
+    margin-right: 15em;
   }
+
   .navbar {
     display: flex;
     position: sticky;
@@ -611,11 +584,11 @@ footer {
   }
 
   li a {
-
+    color: var(--beige1);
     text-align: center;
     text-decoration: none;
     list-style-type: none;
-    font-size: 1.5em;
+    font-size: 1.2em;
     margin: 3em;
   }
   ul {
@@ -624,6 +597,36 @@ footer {
     display: flex;
     justify-content: flex-end;
     list-style: none;
+  }
+}
+@media (min-width: 1536px) {
+  body {
+    margin-left: 25em;
+    margin-right: 25em;
+  }
+  .navbar_mid {
+    display: flex;
+    justify-content: center;
+  }
+  li a {
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 1.7em;
+    margin: 2.5em;
+  }
+  ul {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+  }
+
+  .logo1 {
+    margin-top: 1em;
+    height: auto;
+    width: 30%;
   }
   .navbar_right a:hover {
     color: #8c674f;
