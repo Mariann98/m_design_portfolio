@@ -90,6 +90,9 @@ h1 {
   margin-bottom: 3em;
   font-size: 1em;
 }
+.view {
+   white-space: nowrap;
+}
 .view h5 {
   color: var(--beige1);
   font-size: 0.8em;
