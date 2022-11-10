@@ -213,7 +213,7 @@ font-family: 'Outfit', sans-serif;
   .navbar_left {
     display: block;
   }
-  .navbar_mid {
+  .navbar_mid a{
     display: flex;
     justify-content: center;
     align-items: center;
