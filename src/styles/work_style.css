@@ -15,8 +15,6 @@ body {
   font-family: nitti-typewriter-normal, sans-serif;
   color: var(--dark1);
   background-color: var(--light1);
-  margin-left: 5em;
-  margin-right: 5em;
 }
 
 .navbar_right {
