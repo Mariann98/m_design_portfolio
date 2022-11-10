@@ -37,6 +37,7 @@ font-family: 'Outfit', sans-serif;
   margin: 5em 0 2em 0;
 }
 .logo1 {
+  align-items: center;
   margin-top: 1em;
   height: auto;
   width: 20%;
