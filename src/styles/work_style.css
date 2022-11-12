@@ -790,10 +790,7 @@ img {
   .navbar_left {
     display: block;
   }
-  .navbar_mid {
-    display: flex;
-    justify-content: center;
-  }
+
   li a {
     text-align: center;
     text-decoration: none;
