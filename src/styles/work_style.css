@@ -20,7 +20,7 @@ body {
    margin-right: 2em;
 }
 
-.navbar_right {
+.navbar_right a {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -341,7 +341,7 @@ img {
     background-color: var(--light1);
   }
 
-  .navbar_right {
+  .navbar_right a {
     display: flex;
     align-items: flex-end;
     justify-content: right;
@@ -782,7 +782,7 @@ img {
     top: 0px;
     z-index: 5;
   }
-  .navbar_right {
+  .navbar_right a{
     display: flex;
     align-items: flex-end;
     justify-content: right;
