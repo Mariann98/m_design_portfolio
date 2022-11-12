@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
 
 :root {
@@ -12,6 +13,8 @@
 }
 
 body {
+
+  font-family: 'Dosis', sans-serif;
 font-family: 'Outfit', sans-serif;
   color: var(--dark1);
   background-color: var(--light1);
@@ -20,7 +23,9 @@ font-family: 'Outfit', sans-serif;
 }
 
 .navbar_right {
-  display: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .navbar_left {
   display: none;
@@ -211,8 +216,8 @@ img {
   }
   .logo1 {
     height: auto;
-    width: 20%;
-    margin-top: 0.5em;
+    width: 100%;
+    margin-top: 1em;
   }
   .prso {
     font-size: 1.3em;
@@ -339,7 +344,9 @@ img {
   }
 
   .navbar_right {
-    display: block;
+    display: flex;
+    align-items: flex-end;
+    justify-content: right;
   }
   .navbar_left {
     display: block;
@@ -355,7 +362,7 @@ img {
     text-decoration: none;
     list-style-type: none;
     font-size: 1.1em;
-    margin: 3em;
+    margin: 1em;
   }
   ul {
     margin-top: 1em;
@@ -659,7 +666,7 @@ img {
     text-decoration: none;
     list-style-type: none;
     font-size: 1.2em;
-    margin: 3em;
+    margin: 1em;
   }
   ul {
     margin-top: 1em;
@@ -778,7 +785,9 @@ img {
     z-index: 5;
   }
   .navbar_right {
-    display: block;
+    display: flex;
+    align-items: flex-end;
+    justify-content: right;
   }
   .navbar_left {
     display: block;
@@ -792,7 +801,7 @@ img {
     text-decoration: none;
     list-style-type: none;
     font-size: 1.7em;
-    margin: 2.5em;
+    margin: 1em;
   }
   ul {
     margin-top: 1em;
@@ -818,7 +827,7 @@ img {
   }
   .pictures {
     height: auto;
-    width: 50%;
+    width: 90%;
   }
 
   .sitemap {
