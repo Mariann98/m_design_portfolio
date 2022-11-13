@@ -181,7 +181,7 @@ h2{
   .intro p {
     font-weight: 500;
     font-style: normal;
-    font-size: 1.3em;
+    font-size: 0.8em;
     text-align: center;
     max-width: 17em;
 
@@ -197,7 +197,7 @@ h2{
   h1 {
     font-weight: 500;
     font-style: normal;
-    font-size: 2.75em;
+    font-size: 1.5em;
     margin-bottom: 0.5em;
     margin-top: 3em;
   }
@@ -219,7 +219,7 @@ h2{
   .about p {
     max-width: 20em;
     margin-bottom: 3em;
-    font-size: 1.2em;
+    font-size: 0.8em;
   }
 
   .portfolio {
@@ -261,7 +261,7 @@ h2{
 
   .view h5 {
     color: var(--beige1);
-    font-size: 1.2em;
+    font-size: 1em;
     top: 30%;
     position: absolute;
     top: 40%;
@@ -271,7 +271,7 @@ h2{
      white-space: nowrap;
   }
   .view p {
-    font-size: 1em;
+    font-size: 0.8em;
     white-space: nowrap;
     padding: 0.5em 1em;
     position: absolute;
@@ -286,7 +286,7 @@ h2{
   }
   .contact p {
     text-align: center;
-    font-size: 1.2em;
+    font-size: 0.8em;
     margin: 1em;
     padding-bottom: 1em;
   }
