@@ -47,6 +47,7 @@ h2{
   font-size: 2em;
   color: var(--beige1);
   margin-bottom: 0.2em;
+   white-space: nowrap;
 }
 .intro {
   display: flex;
@@ -112,6 +113,7 @@ h1 {
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+   white-space: nowrap;
 }
 .view p {
   font-family: 'Dosis', sans-serif;
@@ -122,6 +124,7 @@ h1 {
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+   white-space: nowrap;
 }
 .portfolio {
   display: flex;
@@ -168,6 +171,7 @@ h2{
   font-size: 2em;
   color: var(--beige1);
   margin-bottom: 0.2em;
+   white-space: nowrap;
 }
   .logo {
     height: auto;
@@ -264,10 +268,11 @@ h2{
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
+     white-space: nowrap;
   }
   .view p {
     font-size: 1em;
-
+    white-space: nowrap;
     padding: 0.5em 1em;
     position: absolute;
     top: 48%;
